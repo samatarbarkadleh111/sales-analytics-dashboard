@@ -1,0 +1,17 @@
+# Données (on ne versionne pas les fichiers de données)
+data/**/*
+!data/**/.gitkeep
+
+# Python
+__pycache__/
+*.py[co]
+*.egg-info/
+.venv/
+venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Divers
+.DS_Store
+.env

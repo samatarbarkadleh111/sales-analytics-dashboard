@@ -1,1 +1,1 @@
-"""Prédictions à partir des modèles entraînés (optionnel)."""
+"""Predictions from trained models (optional)."""

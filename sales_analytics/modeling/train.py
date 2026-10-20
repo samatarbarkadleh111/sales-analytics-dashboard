@@ -1,1 +1,1 @@
-"""Entraînement de modèles (optionnel)."""
+"""Model training (optional)."""

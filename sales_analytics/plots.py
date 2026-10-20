@@ -1,1 +1,1 @@
-"""Fonctions de visualisation (étape 7)."""
+"""Visualization functions (step 7)."""

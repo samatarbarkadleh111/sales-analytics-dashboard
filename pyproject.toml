@@ -5,7 +5,7 @@ build-backend = "setuptools.build_meta"
 [project]
 name = "sales_analytics"
 version = "0.1.0"
-description = "Analyse des ventes et dashboard interactif"
+description = "Sales analysis and interactive dashboard"
 readme = "README.md"
 requires-python = ">=3.9"
 

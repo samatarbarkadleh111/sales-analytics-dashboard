@@ -1,29 +1,29 @@
 # Sales Analytics Dashboard
 
-Projet d'analyse de données de ventes, de la question métier jusqu'au dashboard interactif.
+A sales data analysis project, from the business question to an interactive dashboard.
 
-## Organisation du projet
+## Project Organization
 
 ```
-├── Makefile           <- Commandes utiles (`make requirements`, `make data`)
-├── README.md          <- Ce fichier
+├── Makefile           <- Convenience commands (`make requirements`, `make data`)
+├── README.md          <- This file
 ├── data
-│   ├── external       <- Données provenant de sources tierces
-│   ├── interim        <- Données intermédiaires, en cours de transformation
-│   ├── processed      <- Données finales, prêtes pour l'analyse
-│   └── raw            <- Données brutes originales (ne jamais modifier)
-├── docs               <- Documentation du projet
-├── models             <- Modèles entraînés (si besoin)
-├── notebooks          <- Notebooks Jupyter, nommés `01-initiales-description.ipynb`
-├── references         <- Dictionnaires de données, documentation des sources
+│   ├── external       <- Data from third-party sources
+│   ├── interim        <- Intermediate data that has been transformed
+│   ├── processed      <- Final, canonical data sets ready for analysis
+│   └── raw            <- Original, immutable data dump (never edit)
+├── docs               <- Project documentation
+├── models             <- Trained models (if needed)
+├── notebooks          <- Jupyter notebooks, named `01-initials-description.ipynb`
+├── references         <- Data dictionaries and source documentation
 ├── reports
-│   └── figures        <- Graphiques générés pour les rapports
-├── requirements.txt   <- Dépendances Python
-├── pyproject.toml     <- Configuration du package `sales_analytics`
-└── sales_analytics    <- Code source du projet
-    ├── config.py      <- Chemins et variables de configuration
-    ├── dataset.py     <- Récupération et nettoyage des données
-    ├── features.py    <- Transformation et création de variables
-    ├── plots.py       <- Fonctions de visualisation
-    └── modeling       <- Entraînement et prédiction (optionnel)
+│   └── figures        <- Generated graphics for reporting
+├── requirements.txt   <- Python dependencies
+├── pyproject.toml     <- Configuration for the `sales_analytics` package
+└── sales_analytics    <- Project source code
+    ├── config.py      <- Paths and configuration variables
+    ├── dataset.py     <- Data collection and cleaning
+    ├── features.py    <- Data transformation and feature engineering
+    ├── plots.py       <- Visualization functions
+    └── modeling       <- Model training and prediction (optional)
 ```

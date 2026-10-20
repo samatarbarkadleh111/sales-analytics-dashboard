@@ -1,4 +1,4 @@
-# Données (on ne versionne pas les fichiers de données)
+# Data (data files are not versioned)
 data/**/*
 !data/**/.gitkeep
 
@@ -12,6 +12,6 @@ venv/
 # Jupyter
 .ipynb_checkpoints/
 
-# Divers
+# Misc
 .DS_Store
 .env

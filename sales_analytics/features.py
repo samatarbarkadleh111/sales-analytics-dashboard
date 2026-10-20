@@ -1,1 +1,1 @@
-"""Transformation des données et création de variables (étape 5)."""
+"""Data transformation and feature engineering (step 5)."""

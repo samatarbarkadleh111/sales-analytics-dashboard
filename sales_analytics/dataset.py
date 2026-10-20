@@ -1,1 +1,1 @@
-"""Récupération et nettoyage des données (étapes 2 à 4)."""
+"""Data collection and cleaning (steps 2 to 4)."""

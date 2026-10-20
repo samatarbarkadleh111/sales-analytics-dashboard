@@ -9,7 +9,7 @@ requirements:
 
 ## Build the cleaned dataset
 data:
-	$(PYTHON_INTERPRETER) -m sales_analytics.dataset
+	$(PYTHON_INTERPRETER) src/data/make_dataset.py data/raw data/processed
 
 ## Delete compiled Python files
 clean:
